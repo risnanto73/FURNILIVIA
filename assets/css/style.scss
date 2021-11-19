@@ -1,0 +1,67 @@
+body {
+    section {
+        h1 {
+            background-color: #A0137C !important;
+            color: white;
+            font-size: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+    section {
+        div {
+            justify-content: center !important;
+            .payment {
+                justify-content: center !important;
+                width: fit-content;
+                padding-left: 40px !important;
+                padding-right: 40px !important;
+                color: white;
+                font-size: 28px;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+            }
+            .img__payment {
+                padding-left: 50px !important;
+                border-radius: 10px;
+            }
+            .shipping {
+                justify-content: center !important;
+                width: fit-content;
+                padding-left: 40px !important;
+                padding-right: 40px !important;
+                color: white;
+                font-size: 28px;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+            }
+            .img__shipping {
+                border-radius: 10px;
+                padding-left: 50px !important;
+                border-radius: 10px;
+            }
+        }
+    }
+    footer {
+        .text-footer {
+            text-align: justify;
+            font-style: italic;
+            margin-right: 70px !important;
+        }
+        .h1__contact {
+            font-family: 'Poppins', Courier, monospace;
+            font-style: italic;
+            color: #A0137C;
+        }
+        .h1__support {
+            font-family: 'Poppins', Courier, monospace;
+            font-style: italic;
+            color: #A0137C;
+        }
+        .text__contact {
+            text-align: left;
+            font-style: italic;
+        }
+    }
+}

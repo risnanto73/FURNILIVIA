@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="172.53" height="172.53" viewBox="0 0 172.53 172.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="51.918" y1="31.99" x2="51.918" y2="32.794" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0097d8"/>
+      <stop offset="1" stop-color="#2c5ba8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="54.1" y1="27.404" x2="52.873" y2="27.404" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="53.584" y1="27.977" x2="54.886" y2="27.977" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ec0f8d"/>
+      <stop offset="1" stop-color="#741470"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="50.867" y1="28.729" x2="50.867" y2="27.879" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <g id="Group_177" data-name="Group 177" transform="translate(-8283.274 -1189.093)">
+    <path id="Path_120" data-name="Path 120" class="cls-1" d="M8376.913,1192.146l46,46.005c20.639,20.639,1.7,37.2,1.7,37.2l-72.829-72.829,10.378-10.377A10.43,10.43,0,0,1,8376.913,1192.146Z"/>
+    <path id="Path_121" data-name="Path 121" class="cls-2" d="M8422.918,1238.151l29.833,29.833a10.429,10.429,0,0,1,0,14.747l-56.469,56.469-17.756-17.756,46.091-46.092S8443.557,1258.79,8422.918,1238.151Z"/>
+    <path id="Path_122" data-name="Path 122" class="cls-3" d="M8342.8,1211.515l17.755,17.756-46.086,46.086s-18.443,17.069-2.22,33.292l-25.918-25.918a10.429,10.429,0,0,1,0-14.747Z"/>
+    <path id="Path_123" data-name="Path 123" class="cls-4" d="M8378.592,1290.964a24.653,24.653,0,0,1-23.876,24.644l32.579,32.578-10.382,10.383a10.43,10.43,0,0,1-14.747,0l-33.939-33.939,21.078-21.079a13.407,13.407,0,1,0-8.778-12.582,13.339,13.339,0,0,0,.818,4.622l-21.078,21.079-8.021-8.021c-16.224-16.223,2.22-33.292,2.22-33.292l14.823,14.823a24.658,24.658,0,0,1,49.3.784Z"/>
+  </g>
+</svg>

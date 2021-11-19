@@ -1,0 +1,79 @@
+body section h1 {
+  background-color: #A0137C !important;
+  color: white;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body section div {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+body section div .payment {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+body section div .img__payment {
+  padding-left: 50px !important;
+  border-radius: 10px;
+}
+
+body section div .shipping {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+body section div .img__shipping {
+  border-radius: 10px;
+  padding-left: 50px !important;
+  border-radius: 10px;
+}
+
+body footer .text-footer {
+  text-align: justify;
+  font-style: italic;
+  margin-right: 70px !important;
+}
+
+body footer .h1__contact {
+  font-family: 'Poppins', Courier, monospace;
+  font-style: italic;
+  color: #A0137C;
+}
+
+body footer .h1__support {
+  font-family: 'Poppins', Courier, monospace;
+  font-style: italic;
+  color: #A0137C;
+}
+
+body footer .text__contact {
+  text-align: left;
+  font-style: italic;
+}
+/*# sourceMappingURL=style.css.map */
