@@ -142,12 +142,38 @@ section {
 .main-product1 {
     height: 110vh;
     width: 100%;
-    background-image: url("img/background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/background.png");
+    background-blend-mode: multiply;
     background-size: cover;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: 632px) {
+        .desktop {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 632px) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    .mobile {
+        display: none;
+        // visibility: visible;
+    }
+}
+
+@media (max-width: 632px) {
+    .mobile {
+        display: block;
+        // visibility: visible;
+    }
 }
 
 .main-product h2 {

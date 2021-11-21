@@ -164,7 +164,9 @@ section .shipping-media .img-shipping {
 .main-product1 {
   height: 110vh;
   width: 100%;
-  background-image: url("img/background.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("img/background.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/background.png");
+  background-blend-mode: multiply;
   background-size: cover;
   position: relative;
   display: -webkit-box;
@@ -176,6 +178,30 @@ section .shipping-media .img-shipping {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 632px) {
+  .main-product1 .desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 632px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 632px) {
+  .mobile {
+    display: block;
+  }
 }
 
 .main-product h2 {
