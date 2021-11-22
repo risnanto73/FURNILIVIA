@@ -27,112 +27,56 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg position-absolute" style="z-index: 2">
+    <nav class="navbar navbar-expand-lg fixed position-absolute" style="z-index: 2;">
         <div class="container-fluid">
-            <a class="navbar-brand ms-5 me-5" style="color: #fff !important" href="#">
-                <img class="img-fluid" src="img/navabr/navbar_logo_white.png" alt="" srcset="" />
+            <a class="navbar-brand me-5" style="color:  	white !important;" href="#">
+                <img class="img-fluid" data-aos="fade-right" src="img/navabr/navbar_logo_white.png" alt="" srcset="">
             </a>
-            <button class="navbar-toggler text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button data-aos="fade-up" data-aos-duration="3000" class="navbar-toggler text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span>
+                    <i class="fas fa-bars" style="color: white; border: none;"></i>
+                </span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="container">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <strong> <a
-                    class="nav-link active ms-3"
-                    style="color: #fff !important"
-                    aria-current="page"
-                    href="home.html"
-                    >Home</a
-                  >
-                </strong>
+                            <strong>
+                                <a class="nav-link active ms-3" data-aos="fade-right" style="color:white !important;" href="home.html">Home</a>
+                            </strong>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-3" style="color: #fff !important" href="about_us.html">About us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link ms-3"
-                  style="color: #fff !important"
-                  href="process.html"
-                  >Process</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link ms-3"
-                  style="color: #fff !important"
-                  href="product.html"
-                  >Products</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link ms-3"
-                  style="color: #fff !important"
-                  href="deliv.html"
-                  >delivery & Refund policy</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link ms-3"
-                  style="color: #fff !important"
-                  href="gallery.html"
-                  >Gallery</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link ms-3"
-                  style="color: #fff !important"
-                  href="blog.html"
-                  >Blog</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link ms-3 me-5"
-                  style="color: #fff !important"
-                  href="contact_us.html"
-                  >Contact Us</a
-                >
-              </li>
-              <div class="d-flex dropdown navbar-profile">
-                <a
-                  href="#"
-                  type="button"
-                  id="dropdownMenu2"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  style="color: #fff !important"
-                  ><img
-                    src="img/navabr/navbar_profil.png"
-                    width="45px"
-                    alt="logo.png"
-                    srcset="" /><i class="fas fa-bars ms-1"></i
-                ></a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <li>
-                                    <button class="dropdown-item" type="button">Action</button>
-                                </li>
-                                <li>
-                                    <button class="dropdown-item" type="button">
-                      Another action
-                    </button>
-                                </li>
-                                <li>
-                                    <button class="dropdown-item" type="button">
-                      Something else here
-                    </button>
-                                </li>
+                            <a class="nav-link ms-3" data-aos="fade-up" style="color:white !important;" href="about_us.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3" data-aos="fade-down" style="color:white !important;" href="process.html">Process</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3" data-aos="fade-left" style="color:white !important;" href="product.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3" data-aos="fade-right" style="color:white !important;" href="deliv.html">delivery & Refund policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3" data-aos="fade-up" style="color:white !important;" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3" data-aos="fade-down" style="color:white !important;" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3" data-aos="fade-left" style="color: white !important;" aria-current="page" href="contact_us.html">Contact us</a>
+                        </li>
+                        <div class="d-flex dropdown navbar-profile ms-5" data-aos="fade-left">
+                            <a href="#" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false" style="color:white !important;"><img src="img/navabr/navbar_profil.png" width="45px" alt="logo.png" srcset=""><i class="fas fa-bars ms-1"></i></a>
+                            <ul class="dropdown-menu" data-aos="fade-up-right" aria-labelledby="dropdownMenu2">
+                                <li data-aos="fade-up-right"><button class="dropdown-item" type="button">Action</button></li>
+                                <li data-aos="fade-up-right"><button class="dropdown-item" type="button">Another action</button></li>
+                                <li data-aos="fade-up-right"><button class="dropdown-item" type="button">Something else here</button></li>
                             </ul>
+                        </div>
+                    </ul>
                 </div>
-                </ul>
             </div>
-        </div>
         </div>
     </nav>
 
@@ -165,8 +109,8 @@
             </div>
             <div class="carousel-item">
                 <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>
 
                 <div class="container">
                     <div class="carousel-caption">
@@ -175,8 +119,8 @@
             </div>
             <div class="carousel-item">
                 <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>
 
                 <div class="container">
                     <div class="carousel-caption text-end">
@@ -186,69 +130,42 @@
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
         <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
-    <footer class="container-fluid bg-white">
-        <div class="row">
-            <div class="col-md-4 border__blue" style="border: 5px solid !important; color: #1d6fb8"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4 border__grey" style="border: 5px solid !important; color: #969696"></div>
+    <footer class="container-fluid mt-5">
+        <div class="row mt-5 ">
+            <div class="col-md-4 border__blue " style="border: 5px solid !important; color: #1d6fb8; "></div>
+            <div class="col-md-4 "></div>
+            <div class="col-md-4 border__grey " style="border: 5px solid !important; color: #969696; "></div>
         </div>
 
         <div class="row footer-sub">
-            <div class="col-md-6">
-                <div class="container">
-                    <img class="mb-3 img-fluid" src="img/footer/footer_logo.svg " alt=" " srcset="" />
-                    <br />
-                    <img class="mb-3 img-fluid" src="img/footer/footer_furnilivia.png " alt=" " srcset="" />
-                    <p>
-                        Furnilivia is a company under the name of CV. Insan Kreatif Dirgantara, was founded in collaboration with woodworkers in west Java. We are a company that provides various kinds of furniture products based in Cirebon, west Java, Indonesia.
+            <div class="col-md-6" data-aos="flip-left">
+                <div class="container ">
+                    <img data-aos="zoom-in-up" class="mb-3 img-fluid " src="img/footer/footer_logo.svg " alt=" " srcset=" ">
+                    <br>
+                    <img data-aos="zoom-in-up" class="mb-3 img-fluid " src="img/footer/footer_furnilivia.png " alt=" " srcset=" ">
+                    <p>Furnilivia is a company under the name of CV. Insan Kreatif Dirgantara, was founded in collaboration with woodworkers in west Java. We are a company that provides various kinds of furniture products based in Cirebon, west Java, Indonesia.
                     </p>
                 </div>
             </div>
 
-            <div class="col-md-3">
-                <div class="container">
-                    <h3>Contacts</h3>
-                    <ul class="list-group">
-                        <li class="list-group" style="
-                  background-image: url('img/footer/footer_call.png');
-                  background-repeat: no-repeat;
-                  background-position: left center;
-                  background-size: 25px;
-                  padding: 10px 0px 12px 50px;
-                  margin: 0px;
-                  font-style: italic;
-                ">
-                            +62 83823098680
-                        </li>
-                        <li class="list-group" style="
-                  background-image: url('img/footer/footer_message.png');
-                  background-repeat: no-repeat;
-                  background-position: left center;
-                  background-size: 25px;
-                  padding: 10px 0px 12px 50px;
-                  margin: 0px;
-                ">
-                            Furnilivia@gmail.com
-                        </li>
-                        <li class="list-group" style="
-                  background-image: url('img/footer/footer_enpoint.png');
-                  background-repeat: no-repeat;
-                  background-position: left center;
-                  background-size: 25px;
-                  padding: 10px 0px 12px 50px;
-                  margin: 0px;
-                ">
-                            Sende, Arjawinangun, Cirebon, Jawa Barat Indonesia
-                        </li>
+            <div class="col-md-3 ">
+                <div class="container ">
+                    <h3 data-aos="fade-right">Contacts</h3>
+                    <ul class="list-group ">
+                        <li data-aos="fade-right" class="list-group " style="background-image: url( 'img/footer/footer_call.png'); background-repeat: no-repeat; background-position: left center; background-size: 25px; padding: 10px 0px 12px 50px; margin: 0px; font-style:
+                        italic; ">
+                            +62 83823098680</li>
+                        <li data-aos="fade-right" class="list-group " style="background-image: url( 'img/footer/footer_message.png'); background-repeat: no-repeat; background-position: left center; background-size: 25px; padding: 10px 0px 12px 50px; margin: 0px; ">Furnilivia@gmail.com</li>
+                        <li data-aos="fade-right" class="list-group " style="background-image: url( 'img/footer/footer_enpoint.png'); background-repeat: no-repeat; background-position: left center; background-size: 25px; padding: 10px 0px 12px 50px; margin: 0px; ">Sende, Arjawinangun, Cirebon, Jawa Barat Indonesia</li>
                     </ul>
                 </div>
             </div>
