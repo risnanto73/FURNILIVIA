@@ -96,9 +96,8 @@ section .shipping-media .img-shipping {
 }
 
 .main-about {
-  height: 110vh;
-  /* width: 100%; */
-  background-image: url("img/background.png");
+  height: 500px;
+  background-image: url("img/about_us/about_uss.png");
   background-size: cover;
   position: relative;
   display: -webkit-box;
@@ -238,8 +237,38 @@ footer .footer-sub ul li a {
   text-decoration: none;
 }
 
+.main-process {
+  height: 500px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("img/process/process_header.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/process/process_header.png");
+  background-color: #a0137c;
+  background-blend-mode: multiply;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-process h2 {
+  font-size: 40px;
+  color: white;
+  font-style: italic;
+  padding: 20px 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  z-index: 1;
+}
+
 .main-process3 {
-  height: 110vh;
+  height: 480px;
   width: 100%;
   background-color: #a0137c;
   background-size: cover;
