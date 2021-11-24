@@ -111,6 +111,12 @@ section .shipping-media .img-shipping {
           align-items: center;
 }
 
+@media (max-width: 632px) {
+  .main-about .border-about .desktop {
+    display: none;
+  }
+}
+
 .main-contact {
   height: 110vh;
   width: 100%;
