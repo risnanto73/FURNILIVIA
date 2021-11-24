@@ -15,29 +15,6 @@
 }
 
 //Home
-.button-readmore {
-    position: absolute;
-    top: 44vw;
-    right: 50%;
-    transform: translateX(50%);
-    border-radius: 100px;
-    padding: 12px 24px;
-    background-color: white;
-    color: #a0137c;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: large;
-}
-
-.break {
-    height: 100px;
-    background-color: white;
-}
-
-.bg-white {
-    background-color: white;
-}
-
 //DELIVERY & REFUND POLICY
 section {
     h1 {
@@ -88,7 +65,7 @@ section {
 //ABOUT US
 .main-about {
     height: 500px;
-    // width: 100%;
+    width: 100%;
     background-image: url("img/about_us/about_uss.png");
     background-size: cover;
     position: relative;
@@ -131,7 +108,36 @@ section {
     text-align: center;
 }
 
-// END GALLERY
+.gallery-mobile {
+    .responsiv {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-web {
+        display: none;
+    }
+}
+
+//main-process-mobile
+@media (max-width: 1440px) {
+    .gallery-mobile {
+        display: none;
+        // visibility: visible;
+    }
+}
+
+//main-process-mobile
+@media (max-width: 632px) {
+    .gallery-mobile {
+        display: block;
+        // visibility: visible;
+    }
+}
+
 //PRODUCT
 .main-product {
     height: 110vh;
@@ -174,6 +180,7 @@ section {
     }
 }
 
+//main product-mobil
 @media (max-width: 632px) {
     .mobile {
         display: block;
@@ -192,8 +199,6 @@ section {
     z-index: 1;
 }
 
-//END PRODUCT
-//END CONTACT US
 // FOOTER
 footer {
     .footer-sub {
@@ -217,19 +222,21 @@ footer {
     }
 }
 
-//END FOOTER
 //PROCESS
 .main-process {
-    height: 500px;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/process/process_header.png");
+    height: 110vh;
+    // width: 100%;
+    background-image: url("img/process/process_header.png");
+    background-size: cover;
     background-color: #a0137c;
     background-blend-mode: multiply;
-    background-size: cover;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    h2 {
+        font-size: 100px;
+    }
 }
 
 .main-process h2 {
@@ -251,6 +258,38 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main-mobile {
+    background-color: #a0137c;
+    .responsiv {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+}
+
+//main-process-web
+@media (max-width: 480px) {
+    .main-process3 {
+        display: none;
+    }
+}
+
+//main-process-mobile
+@media (max-width: 1440px) {
+    .main-mobile {
+        display: none;
+        // visibility: visible;
+    }
+}
+
+//main-process-mobile
+@media (max-width: 632px) {
+    .main-mobile {
+        display: block;
+        // visibility: visible;
+    }
 }
 
 //ENDPROCESS

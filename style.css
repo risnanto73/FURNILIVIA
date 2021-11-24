@@ -12,30 +12,6 @@
   outline: none;
 }
 
-.button-readmore {
-  position: absolute;
-  top: 44vw;
-  right: 50%;
-  -webkit-transform: translateX(50%);
-          transform: translateX(50%);
-  border-radius: 100px;
-  padding: 12px 24px;
-  background-color: white;
-  color: #a0137c;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: large;
-}
-
-.break {
-  height: 100px;
-  background-color: white;
-}
-
-.bg-white {
-  background-color: white;
-}
-
 section h1 {
   background-color: #a0137c !important;
   color: white;
@@ -97,6 +73,7 @@ section .shipping-media .img-shipping {
 
 .main-about {
   height: 500px;
+  width: 100%;
   background-image: url("img/about_us/about_uss.png");
   background-size: cover;
   position: relative;
@@ -147,6 +124,30 @@ section .shipping-media .img-shipping {
 
 .h2-gallery {
   text-align: center;
+}
+
+.gallery-mobile .responsiv {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .gallery-web {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .gallery-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 632px) {
+  .gallery-mobile {
+    display: block;
+  }
 }
 
 .main-product {
@@ -244,13 +245,11 @@ footer .footer-sub ul li a {
 }
 
 .main-process {
-  height: 500px;
-  width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("img/process/process_header.png");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/process/process_header.png");
+  height: 110vh;
+  background-image: url("img/process/process_header.png");
+  background-size: cover;
   background-color: #a0137c;
   background-blend-mode: multiply;
-  background-size: cover;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -261,6 +260,10 @@ footer .footer-sub ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.main-process h2 {
+  font-size: 100px;
 }
 
 .main-process h2 {
@@ -288,5 +291,33 @@ footer .footer-sub ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.main-mobile {
+  background-color: #a0137c;
+}
+
+.main-mobile .responsiv {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .main-process3 {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .main-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 632px) {
+  .main-mobile {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
