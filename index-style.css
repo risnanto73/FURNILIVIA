@@ -15,8 +15,7 @@
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/bg@2x.png");
-    background-color: #a0137c;
+    background-image: url("img/home/hedaer_home.png");
     background-blend-mode: multiply;
     background-size: cover;
     padding: 230px 0 160px;
@@ -51,4 +50,25 @@ header a {
     font-weight: 700;
     font-size: large;
     margin-top: 8em;
+}
+
+footer .footer-sub {
+    padding-top: 50px;
+}
+
+footer .footer-sub h3 {
+    padding-top: 50px;
+    color: #a0137c;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer .footer-sub p {
+    text-align: justify;
+    justify-content: center;
+}
+
+footer .footer-sub ul li a {
+    font-style: italic;
+    text-decoration: none;
 }

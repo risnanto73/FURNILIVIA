@@ -2,22 +2,6 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.bg-nav {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    background-blend-mode: multiply;
-    background-color: #a0137c;
-}
-
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/bg@2x.png");
-    background-color: #a0137c;
-    background-blend-mode: multiply;
-    height: 100%;
-    padding: 500px 0 20px;
-    background-size: cover;
-    position: relative;
-}
-
 .navbar {
     .navbar-profile {
         @media (max-width: "932px") {
