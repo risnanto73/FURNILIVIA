@@ -95,11 +95,9 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    .border-about {
-        @media (max-width: 632px) {
-            .desktop {
-                display: none;
-            }
+    @media (max-width: 632px) {
+        .border-about {
+            display: none;
         }
     }
 }
