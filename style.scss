@@ -2,6 +2,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     .navbar-profile {
         @media (max-width: "932px") {
@@ -14,7 +18,70 @@
     outline: none;
 }
 
-//Home
+// HOME
+.bg-nav {
+    background-image: rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url('img/home/hedaer_home.png');
+    background-color: #a0137c;
+    ul li a {
+        color: white;
+    }
+}
+
+.hero-home {
+    height: 110vh;
+    width: 100%;
+    background-blend-mode: multiply;
+    justify-content: center;
+    background-image: url('img/home/hedaer_home.png');
+    background-size: cover;
+    margin-top: -120px;
+    // position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: white;
+    }
+    h1 {
+        font-size: 100px;
+        color: white;
+    }
+    .button-readmore {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-home {
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-tog {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-tog {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-home {
+        p {
+            font-weight: 400;
+            font-size: 15px;
+        }
+        h1 {
+            font-weight: bold;
+            font-size: larger;
+        }
+    }
+}
+
 //DELIVERY & REFUND POLICY
 section {
     h1 {
@@ -61,7 +128,6 @@ section {
     }
 }
 
-//END DELIVERY & REFUND POLICY
 //ABOUT US
 .main-about {
     height: 500px;

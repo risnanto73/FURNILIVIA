@@ -2,6 +2,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (max-width: 932px) {
   .navbar .navbar-profile {
     display: none !important;
@@ -10,6 +14,76 @@
 
 .button-navbar:hover {
   outline: none;
+}
+
+.bg-nav {
+  background-image: rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("img/home/hedaer_home.png");
+  background-color: #a0137c;
+}
+
+.bg-nav ul li a {
+  color: white;
+}
+
+.hero-home {
+  height: 110vh;
+  width: 100%;
+  background-blend-mode: multiply;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("img/home/hedaer_home.png");
+  background-size: cover;
+  margin-top: -120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-home p {
+  color: white;
+}
+
+.hero-home h1 {
+  font-size: 100px;
+  color: white;
+}
+
+.hero-home .button-readmore {
+  margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+  .hero-home {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-tog {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-tog {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-home p {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .text-home h1 {
+    font-weight: bold;
+    font-size: larger;
+  }
 }
 
 section h1 {
