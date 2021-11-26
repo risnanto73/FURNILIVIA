@@ -39,7 +39,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    p {
+    h4 {
         color: white;
     }
     h1 {
@@ -71,9 +71,9 @@ html {
 
 @media (max-width: 480px) {
     .text-home {
-        p {
+        h6 {
             font-weight: 400;
-            font-size: 15px;
+            color: white;
         }
         h1 {
             font-weight: bold;

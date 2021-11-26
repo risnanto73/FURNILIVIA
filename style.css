@@ -44,7 +44,7 @@ html {
           align-items: center;
 }
 
-.hero-home p {
+.hero-home h4 {
   color: white;
 }
 
@@ -76,9 +76,9 @@ html {
 }
 
 @media (max-width: 480px) {
-  .text-home p {
+  .text-home h6 {
     font-weight: 400;
-    font-size: 15px;
+    color: white;
   }
   .text-home h1 {
     font-weight: bold;
